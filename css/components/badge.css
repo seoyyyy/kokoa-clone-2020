@@ -9,3 +9,37 @@
   color: white;
   font-weight: 600;
 }
+
+.new {
+  background-color: tomato;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.new__nav {
+  left: 35px;
+  bottom: 30px;
+}
+
+.new__setting {
+  right: 15px;
+  top: 45px;
+}
+
+.alert-badge {
+  border: 2px solid tomato;
+  width: 15px;
+  height: 15px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: tomato;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 600;
+}
